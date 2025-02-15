@@ -1,0 +1,15 @@
+.container{
+    width: 60vw;
+    background: rgb(233, 233, 233);
+    padding: 2vw;
+    border-radius: 2vw;
+    margin: 20vh auto;
+}
+
+.container sup{
+    color: rgb(48, 48, 199);
+    font-weight: 800;
+}
+.container .p-text{
+    font-size: 12px;
+}

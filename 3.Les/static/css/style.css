@@ -1,0 +1,48 @@
+.container-text{
+    background: gainsboro;
+    width: 70vw;
+    padding: 2vw;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.container-text h2{
+    text-align: center;
+}
+.container-text .text-right{
+    text-align: right;
+    display: block;
+    margin-bottom: 10px;
+}
+.container-text .text-italics{
+    font-style: italic;
+}
+.container-text .text-small{
+    font-size: 12px;
+}
+.container-text .span-one {
+    color: rgb(0, 0, 0);
+}
+
+.container-text .span-two {
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.container-text .span-three {
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.container-text .span-four {
+    color: rgb(0, 0, 0, 0.4);
+}
+
+.container-text .span-five {
+    color: rgb(0, 0, 0, 0.2);
+}
+
+.container-text .span-six {
+    color: rgb(0, 0, 0, 0.1);
+}
+
+.container-text .span-seven {
+    color: rgb(0, 0, 0, 0.05);
+}

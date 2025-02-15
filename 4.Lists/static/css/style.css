@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list-one{
+    background: papayawhip;
+    padding: 30px;
+}
+
+.list-one ul{
+    margin: 30px;
+    background: palevioletred;
+    list-style-type: upper-roman;
+}
+
+.list-one ul li{
+    margin-bottom: 20px;
+    background: pink;
+    padding: 10px;
+    color: brown;
+}
+
+.list-one ol{
+    margin: 10px;
+
+}
+
+.list-one ol li{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+
+.list-one ol li span{
+    font-weight: normal;
+    color: black;
+}
+.list-one ol li span:hover{
+    color: brown;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list-two {
+    margin: 50px;
+  }
+  
+  .list-two ul {
+    margin: 30px;
+    list-style-type: none;
+  }
+  
+  .list-two ul  li {
+    padding: 10px;
+  }
+  
+  .list-two ul li::before {
+    content: '✓';
+    color: green;
+    margin-right: 10px;
+  }
+
+  .list-three > ul{
+    margin: 50px;
+    padding-left: 30px;
+    list-style-type: upper-roman;
+  }
+
+
+  
+  .list-three .ul-one .ul-two{
+    padding-left: 60px;
+    list-style-type: lower-roman;
+  }
+  
+  .ul-three {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40px; 
+  }
+  
+  .ul-two li, .ul-three li {
+    margin-bottom: 5px;
+  }
